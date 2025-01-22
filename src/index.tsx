@@ -2,6 +2,8 @@
 import { render } from "solid-js/web";
 
 import "./index.css";
+import "@fontsource/noto-serif-kr/400.css";
+import "@fontsource/noto-serif-kr/700.css";
 import App from "./App";
 
 const root = document.getElementById("root");

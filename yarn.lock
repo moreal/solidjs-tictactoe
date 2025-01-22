@@ -476,6 +476,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fontsource/noto-serif-kr@npm:^5.1.2":
+  version: 5.1.2
+  resolution: "@fontsource/noto-serif-kr@npm:5.1.2"
+  checksum: 10c0/425c2c28283451cf2ebf1007650dc4f0fe0ee8d9268b42a44a40e690fca5e4b86db331cb6643d3ce77f481e004dddec4a96526c755f48e29c392f1e04060dd73
+  languageName: node
+  linkType: hard
+
 "@formatjs/ecma402-abstract@npm:2.3.2":
   version: 2.3.2
   resolution: "@formatjs/ecma402-abstract@npm:2.3.2"
@@ -4524,6 +4531,7 @@ __metadata:
   resolution: "vite-template-solid@workspace:."
   dependencies:
     "@biomejs/biome": "npm:^1.9.4"
+    "@fontsource/noto-serif-kr": "npm:^5.1.2"
     "@lhci/cli": "npm:^0.14.0"
     solid-js: "npm:^1.9.3"
     typescript: "npm:^5.7.2"
