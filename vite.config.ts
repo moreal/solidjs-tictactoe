@@ -8,5 +8,8 @@ export default defineConfig({
 	},
 	build: {
 		target: "esnext",
+		rollupOptions: {
+			external: ["/fonts.css", "/index.css"],
+		},
 	},
 });
