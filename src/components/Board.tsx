@@ -1,7 +1,7 @@
 import { Index, Show } from "solid-js";
-import { Cell } from "./Cell";
 import { board } from "../store/board";
 import { isFinished } from "../store/game";
+import { Cell } from "./Cell";
 
 export function Board() {
 	return (

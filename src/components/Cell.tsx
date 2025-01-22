@@ -1,7 +1,7 @@
 import { batch, createMemo, splitProps } from "solid-js";
-import { currentPlayer, switchPlayer } from "../store/player";
 import { board, makeMove } from "../store/board";
 import { checkWinner } from "../store/game";
+import { currentPlayer, switchPlayer } from "../store/player";
 
 export function Cell(props: {
 	index: number;

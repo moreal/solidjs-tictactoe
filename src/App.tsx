@@ -1,8 +1,8 @@
 import type { Component } from "solid-js";
 
-import { Header } from "./components/Header";
 import { Board } from "./components/Board";
 import { GameStatus } from "./components/GameStatus";
+import { Header } from "./components/Header";
 
 const App: Component = () => {
 	return (

@@ -8,7 +8,7 @@
 		"dev": "vite",
 		"build": "vite build",
 		"serve": "vite preview",
-		"fmt": "biome format --write ."
+		"fmt": "biome check --write ."
 	},
 	"license": "MIT",
 	"devDependencies": {

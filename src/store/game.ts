@@ -1,6 +1,6 @@
+import { createSignal } from "solid-js";
 import { board } from "./board";
 import type { Player } from "./player";
-import { createSignal } from "solid-js";
 
 type Winner = Player | "DRAW" | "UNKNOWN";
 export const [winner, setWinner] = createSignal<Winner>("UNKNOWN", {
