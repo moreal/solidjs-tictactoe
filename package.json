@@ -21,7 +21,7 @@
 	},
 	"dependencies": {
 		"@fontsource/noto-serif-kr": "^5.1.2",
-		"solid-js": "^1.9.3"
+		"solid-js": "^1.9.10"
 	},
 	"packageManager": "yarn@4.12.0"
 }
